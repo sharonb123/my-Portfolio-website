@@ -1,0 +1,255 @@
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+/*heading css*/
+header{font-family: "Montserrat",sans-serif;/*position: sticky;top: 0;*/}
+
+header h1{font-family: "Jaro";
+    font-weight: lighter;
+    font-size: 100px;
+    margin-left: 425px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+text-shadow: grey 6px 6px 6px;}
+
+header #Mainheading{margin-left: -50px;}
+
+.Education h2 {font-family: "Jaro";
+font-weight: lighter;
+/*text-shadow: rgb(98, 19, 105) 4px 2px;*/}
+
+h2{text-shadow: grey 2px 1px 1px;}
+
+header #Cdetails{margin-left: 340px;
+margin-bottom: 50px;
+font-size: 20px;}
+
+header #Mainheading #Edetails{margin-left: 200px;
+margin-top: -25px;
+margin-bottom: 60px;
+font-size:  16px;
+border: 2px solid red;
+margin-right: 50px;
+/*padding-inline-start: 20px;*/
+padding-right: 50px;}
+
+#Edetails ul li{list-style:symbols('-');}
+
+#heading_line{margin-top: -30px;
+margin-bottom: 90px;
+margin-right: 50px;
+margin-left: 100px;
+height: 2px;
+background-color: white;}
+
+#Extra #first{padding-right: 50px;}
+
+#Extra #second{padding-right: 30px;}
+
+#Extra .cols{margin-left: -5px;}
+
+
+
+/*body css*/
+body{background-image: url(./ufo-saturn-monochrome-4k-7t6w4i5utzhxbdt5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-position: 69%;
+    font-family: "Montserrat",sans-serif;
+    background-color: #cdac79;
+    color: white;}
+
+    h2{font-size: 50px;
+    text-shadow: grey 6px 4px 4px;}
+
+/*education css*/
+body #Education{margin-left: 150px;
+margin-bottom: 50px;}
+
+.Education{padding: 5px;
+max-width: 960px;
+width: 95%;
+margin: 20px auto;
+margin-left: 150px;}
+
+.Education_lists{border: 2px solid white;
+border-radius: 10px;
+margin-top: 20px;}
+
+.Education_lists li{list-style: none;}
+
+#Education h2{margin-bottom: 25px;
+    font-family: "Jaro";
+    font-weight: lighter;}
+
+body #Skills{margin-left: 150px;}
+
+#Skills h2{margin-bottom:  25px;
+    font-family: "Jaro";
+    font-weight: lighter;}
+
+body #Education ul li{margin-bottom: 20px;
+    list-style: none;
+/*list-style-image: url(./rocket_20dp_FILL0_wght400_GRAD0_opsz20.png);*/}
+
+body #Skills ul li{margin-bottom: 20px;
+text-decoration: none;
+list-style-type: none;}
+
+body .column{margin-top: 20px;}
+
+body .columns .column .skills_list1{padding-left: 30px;}
+
+video{height:10px; width: 10px;
+font-weight: lighter;}
+
+
+
+
+
+/* grid for the skills list*/
+#Skills{padding: 5px;
+max-width: 960px;
+width: 95%;
+margin: 20px auto;}
+
+.columns{display: flex;
+flex-flow: row wrap;
+justify-content: center;
+margin: 5px 0;
+border: 2px solid white;
+border-radius: 10px;}
+
+.column{flex: 1;
+/*border: 1px solid white;*/
+margin: 2px;
+margin-right: -100px;
+padding: 10px;
+transition: 0.3s;}
+
+/*#skills2{margin-left: -500px;}*/
+
+
+body #Extra{margin-left: 160px;}
+
+
+#Extra h2{margin-bottom:  25px;
+    font-family: "Jaro";
+    font-weight: lighter;}
+
+#Extra p{font-size: 15px;}
+#Extra #last{padding-left: -300px;}
+
+
+
+/*#vertical_line{
+    border-left: 2px solid white;
+    height:350px;
+    margin: 200px;
+    margin-top: 15px;
+    margin-right: 150px;}*/
+
+
+/*for the extra ciriculum*/
+    .cols{display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin: 2px 2px;
+        border: 2px solid white;
+        border-radius: 10px;
+        margin-right: 240px;}
+        
+        .col{flex: 1;
+        margin: 2px;
+        margin-right: -100px;
+        padding: 10px;
+        transition: 0.3s;}
+
+
+
+
+/*footer css*/
+footer{margin-left: 1000px;
+    margin-top:200px; 
+    font-weight: 200;}
+
+footer #endmessage{margin-bottom: 10px;}
+
+footer #canva{font-size: 9px;
+    margin-bottom: 10px;}
+
+
+/*icons css*/
+#map{width: 26px;
+    height: 26px;
+    margin-bottom: -6px;
+    border-radius: 5px;}
+
+#phone{width: 25px;
+    height: 25px;
+    margin-bottom: -6px;
+    border-radius: 5px}
+
+#email{width: 25px;
+    height: 25px;
+    margin-bottom: -6px;}
+
+#github{width: 25px;
+    height: 25px;
+    margin-bottom: -6px;}
+
+#linkedin{width: 25px;
+height: 25px;
+margin-bottom: -6px;
+margin-right: 5px;}
+
+a {color: white;
+font-family: "Montserrat",sans-serif;
+text-decoration: none;
+text-shadow:3px 3px 5px black;
+box-shadow: white;
+padding-right: 5px;}
+
+a:hover{color: lightgray;
+font-family: "Montserrat",sans-serif;
+text-decoration: none;
+/*text-shadow: white 2px 1px 2px;*/
+box-shadow:  white 2px 2px 2px ;}
+
+.stars{color: yellow;}
+
+
+/*min-width*600px,601px,768px,992px,1200px*/
+@media screen and(max-width: 700px){
+
+    body{width: 100%;
+    margin: 0;
+    padding: 0;
+    color: red;}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*break-points*/
+/*xs: min-width 475px*/
+/*s: min-width 640px*/
+/*m: min-width 768px*/
+/*l: min-width 1024px*/
+/*xl: min-width 1280px*/
+/*xxl: min-width 1536px*/
+/* min for mobile first */
+/*max for desktop first */
